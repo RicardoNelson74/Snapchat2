@@ -1,0 +1,374 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4rem;
+    text-align: center;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+}
+
+/*header */
+
+header > nav > ul > li
+{
+    display: inline-block;
+    padding: 10px 16px;
+    font-weight: bold;
+    
+    
+}
+header img
+{
+    position: absolute;
+    display:block;
+    padding-top: 10px;
+
+}
+
+#top
+{
+    background-color: #fffc00;
+    /*max-width: 1200px ;*/
+    padding: 10px 0 15px 80px;
+   
+   
+}
+
+
+#bottom
+{
+    background-color: #ffffff;
+    /*max-width: 1200px;*/
+    
+
+}
+
+header
+{
+    position: sticky;
+    top: 0;
+    min-width: 1200px;
+    text-align: left;
+
+}
+
+
+
+
+
+main
+{
+    height: 65vh;
+    color: #ffffff;
+    font-size: 2.0rem;
+    
+    
+    
+}
+
+main > h1
+{
+    padding: 100px 0;
+    font-weight: normal;
+}
+
+a
+{
+    text-decoration: none;
+    color: #000000;
+    padding: 50px 0;
+
+}
+#top a:hover
+{
+    text-decoration: underline;
+    
+}
+#bottom  a:hover
+{
+    color: firebrick;
+    text-decoration: underline;
+    background-color: gray;
+    border-radius: 90px;
+    display: inline-block;
+    padding: 0.4rem 0.4rem;
+    
+    
+    
+}
+
+main a:hover
+{
+    color: firebrick;
+    text-decoration: underline;
+    background-color: gray;
+    border-radius: 90px;
+    display: inline-block;
+    padding: 1rem 1rem;
+    
+}
+
+main > a
+{
+    border: none;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    border-radius: 100px;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    margin-top: 1rem;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+
+
+}
+
+
+
+#overlay
+{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background-Image: url(../img/img-header.jpg);
+    background-repeat: no-repeat;
+    Background-size: cover;
+    background-position: center center;  
+    opacity: 0.9;
+}
+
+#whoarewe
+{
+    background-color: #ffffff;
+    padding: 25px 450px;
+
+    
+}
+
+#brands
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #f9f9f9;
+    padding: 0 50px;
+    
+}
+
+#brandcolor
+{
+    background-color: #f9f9f9;
+}
+
+#brands > div > img
+{
+    width: 100px;
+    padding: 25px 25px;
+}
+
+#brands > div > p
+{
+    padding: 0 80px;
+}
+
+
+#wearekind
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 80px 50px;
+    
+    
+}
+
+#wearesmart
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 80px 50px;
+    background-color: #f9f9f9;
+}
+
+#wearecreative
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 80px 50px;
+}
+
+#radius  img
+{
+    border-radius: 50px;
+    width: 600px;
+}
+
+#radius h2
+{
+    padding: 70px 25px;
+
+}
+
+#readytojoin
+{
+    background-color: #fffc00;
+    height:668px;
+    padding-top: 300px;
+    
+}
+
+#readytojoin > h2
+{
+    font-size: 2.8rem;
+    padding: 50px 0;
+    font-weight: normal;
+
+}
+
+#readytojoin > a
+{
+    border: none;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    border-radius: 100px;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    margin-top: 1rem;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+
+}
+
+#readytojoin > a:hover
+{
+    color: firebrick;
+    text-decoration: underline;
+    background-color: gray;
+    border-radius: 90px;
+    display: inline-block;
+    padding: 1rem 1rem;
+    
+}
+
+footer > div > h4
+{
+    display: inline-block;
+    padding: 10px 0 10px 25px;
+}
+
+footer > div
+{
+    text-align: left;
+   
+}
+
+@media (max-width:576px)
+{
+    main{ background-color:red;}
+}
+
+@media (min-width: 577px) and (max-width: 1000.00px) 
+{
+    body
+{
+    line-height: 2.0rem;
+    font-size: 2.0rem;
+    
+}
+
+    header > nav > ul > li
+{
+    display: block;
+    text-align: center;
+}
+
+#top
+{
+    padding-right: 85px;
+}
+
+#bottom
+{
+    background-color: #f9f9f9; 
+}
+
+#overlay
+{
+    min-width: 1200px;
+}
+
+#whoarewe > div > h2
+{
+  padding-bottom: 15px;
+}
+
+#whoarewe
+{
+     padding: 25px 225px;
+}
+
+#brandcolor
+{
+    padding: 10px 0;
+
+}
+
+#brands
+{
+padding: 0 25px;
+}
+
+
+
+
+
+#brands
+{
+  
+    grid-template-columns: 1fr;
+}
+
+    #wearekind
+{
+    
+    grid-template-columns:  1fr;
+    padding-left: 00px;
+}
+
+
+#radius  img
+{
+  margin: 0 auto;
+}
+
+#wearesmart
+{
+    
+    grid-template-columns: 1fr;
+}
+#wearecreative
+{
+    
+    grid-template-columns: 1fr;
+}
+
+
+}
+
+
+@media (min-width: 1000.00px)
+{
+    #overlay
+{
+    min-width: 1200px;
+}
+
+}
+
